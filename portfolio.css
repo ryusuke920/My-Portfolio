@@ -1,12 +1,11 @@
+/*全体に関わってくるやつ*/
 html{
-  height:100%;
+  width:100%;
 }
 
 body{
     font-family:"Avenir Next";
-    height:100%;
-    margin:0 5px;
-  }
+}
 
 a{
   text-decoration:none; /*リンクの下線を非表示にする*/
@@ -16,6 +15,18 @@ li{
   list-style: none;
 }
 
+h2{
+  text-align:center;
+  letter-spacing:15px;
+  font-size: 50px;
+  margin: 80px 0;
+}
+
+.inner{
+  height:100%;
+}
+
+/*header*/
 .top-box{
   background-color: #55acee;
   text-align:center;
@@ -25,8 +36,6 @@ li{
   display: inline-block;
   letter-spacing: 5px;
   width:1000px;
-
-
 }
 
 .fixed{
@@ -37,7 +46,7 @@ li{
   color: black;
 }
 
-
+/*logo*/
 .logo{
   height:100%;
   background-color:red;
@@ -55,18 +64,38 @@ li{
   font-size:40px;
 }
 
-h2{
-  text-align:center;
-  letter-spacing:15px;
-  font-size: 50px;
+/*Introduction*/
+
+/*product*/
+
+/*skills*/
+#skills{
+  height:400px;
 }
 
+.my-skills{
+  float:left; /*横並びに*/
+  width:calc(100%/3); /*3つずつ並べる*/
+  text-align: center; /*ロゴを中央よせ*/
+}
 
+.img-skills{
+  height:100px; /*ロゴの大きさ調整（widthは自動補完）*/
+}
+
+.skills-contents{
+  width:80%;
+  display:inline-block;
+  margin-top:20px;
+  font-size:12px;
+  color:#b3aeb5;
+  text-align:center;
+}
+
+/*contactform*/
 .section-text{
   text-align:center;
 }
-
-
 
 .contact-list{
 	display: flex;
@@ -83,8 +112,13 @@ h2{
 	height: auto; /*画像の縦横比を維持 */
 }
 
-.fa{
-  margin-right:10px;
+#contact{
+  height:300px;
+}
+
+.contact-other{
+  text-align:center;
+  height:50px;
 }
 
 .btn {
@@ -101,6 +135,10 @@ h2{
   opacity: 1;
 }
 
+.github{
+  background-color:#1dc21d;
+}
+
 .twitter{
   background-color:#55acee;
 }
@@ -109,27 +147,26 @@ h2{
   background-color:#CF2E92;
 }
 
-.github{
-  background-color:#171515;
-}
-
 .hatenablog{
-  background-color:#ffa500
+  background-color:#ebbc23
 }
 
 .atcoder{
-  background-color:#006400;
+  background-color:black;
 }
 
-#contact{
-  height:250px;
+.contact-img{
+  width:30px;/*heightは自動補完*/
 }
 
-.contact-other{
+.contact-img-text{
+  float:right;
   text-align:center;
-  height:50px;
+  font-size:15px;
+  margin:auto 10px;
 }
 
+/*footer*/
 #footer{
   color:white;
   background-color:#808080;
