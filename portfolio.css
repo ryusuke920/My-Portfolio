@@ -1,9 +1,46 @@
+html{
+  height:100%;
+}
+
 body{
     font-family:"Avenir Next";
+    height:100%;
+    margin:0 5px;
   }
-  
+
+a{
+  text-decoration:none; /*リンクの下線を非表示にする*/
+}
+
 li{
   list-style: none;
+}
+
+.top-box{
+  background-color: #55acee;
+  text-align:center;
+  margin:10px 20px;
+  padding: 20px 50px;
+  font-size:28px;
+  display: inline-block;
+  letter-spacing: 5px;
+  width:1000px;
+
+
+}
+
+.fixed{
+  display:flex;
+}
+
+.top-box-text{
+  color: black;
+}
+
+
+.logo{
+  height:100%;
+  background-color:red;
 }
 
 .logo-title{
@@ -40,6 +77,7 @@ h2{
 	padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
 	box-sizing:border-box;
 }
+
 .contact-list li img {
 	max-width:100%; /*画像のはみだしを防ぐ*/
 	height: auto; /*画像の縦横比を維持 */
