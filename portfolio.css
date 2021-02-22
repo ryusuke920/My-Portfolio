@@ -5,3 +5,96 @@ body{
 li{
   list-style: none;
 }
+
+.logo-title{
+  text-align:center;
+  letter-spacing:15px;
+  font-size:70px;
+}
+
+.logo-desc{
+  text-align:center;
+  letter-spacing:15px;
+  font-size:40px;
+}
+
+h2{
+  text-align:center;
+  letter-spacing:15px;
+  font-size: 50px;
+}
+
+
+.section-text{
+  text-align:center;
+}
+
+
+
+.contact-list{
+	display: flex;
+	flex-wrap:wrap;
+}
+.contact-list li {
+	width: calc(100%/5);/*←画像を横に5つ並べる*/
+	padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
+	box-sizing:border-box;
+}
+.contact-list li img {
+	max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+}
+
+.fa{
+  margin-right:10px;
+}
+
+.btn {
+  padding: 16px 20px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  font-size:20px;
+  border-radius: 6px;
+  height:30px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.twitter{
+  background-color:#55acee;
+}
+
+.instagram{
+  background-color:#CF2E92;
+}
+
+.github{
+  background-color:#171515;
+}
+
+.hatenablog{
+  background-color:#ffa500
+}
+
+.atcoder{
+  background-color:#006400;
+}
+
+#contact{
+  height:250px;
+}
+
+.contact-other{
+  text-align:center;
+  height:50px;
+}
+
+#footer{
+  color:white;
+  background-color:#808080;
+  text-align:center;
+  padding:15px 0;
+}
