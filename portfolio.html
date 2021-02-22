@@ -1,43 +1,178 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
   <meta charset="utf-8">
-  <title>Profile</title>
-  <link rel = "stylesheet" href = "portfolio.css">
+  <title>Ryusuke Hioki Portfolio</title>
+  <link rel="stylesheet" href="css/portfolio.css">
 </head>
 
 <body>
+    <div id="wrapper">
+        <nav id="gnav" class="fixed">
+            <ul>
+                <li><a href="#about">Introduction</a></li>
+                <li><a href="#products">Product</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
     <header>
-      <div class="header-left">
-        <div class="header-logo">
-          MyPortFolio
+        <div class="inner">
+            <h1 class="logo">
+            <div class="logo-title">Ryusuke Hioki</div>
+            <div class="logo-desc">My Portfolio</div>
+            </h1>
         </div>
-      </div>
-      <div class="header-right">
-        <div class="header-list">
-          <ul>
-            <li>introduction</li>
-            <li>works</li>
-            <li>hobby</li>
-            <li>contact</li>
-          </ul>
-        </div>
-      </div>
     </header>
 
-    <div class="main">
-      <div class="introduction">
-      </div>
-      <div class="works">
-      </div>
-      <div class="hobby">
-      </div>
-      <div class="contact">
+    <main class="contents">
+        <section class="section" id="Introduction">
+            <div class="inner">
+                <h2 class="section-title">Introduction</h2>
+                <div class="section-body">
+                    <div class="section-image">
+                        <img class="MyPicture" src="images/myPicture.jpg" alt="自分のアイコン">
+                    </div>
+                    <div class="section-about">
+                        <div class="section-text-title">
+                            Name<br>
+                            Birthday<br>
+                            Birthplace<br>
+                            University<br>
+                            High School<br>
+                            Favorite Area<br>
+                        </div>
+                        <div class="section-text-about">
+                            日置 竜輔（Ryusuke Hioki）<br>
+                            2000/09/20<br>
+                            愛知県 東海市<br>
+                            公立はこだて未来大学 システム情報科学部 B2<br>
+                            愛知県立横須賀高等学校<br>
+                            アルゴリズムとデータ構造 / UIデザイン<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      </div>
-    </div>
+      <section class="section" id="products">
+        <div class="inner">
+
+          <div class="section-title-range">
+            <h2 class="section-title">Product</h2>
+              <div class="section-title-text">
+                これまでの制作物・プロダクトなどを紹介します
+              </div>
+          </div>
+
+          <div class="section-body box-wrapper my-gallery">
+
+            <div class="box">
+              <div class="box-image">
+              <img src="#funlocksの画像" alt="funlocksの紹介画像">
+              </div>
+              <div class="box-product">
+                <div class="box-product-title">FunLocks</div>
+                <div class="box-product-info">Kotlin</div>
+                <div class="box-product-url">
+                    <a class="url-link" href="#FunLocksのリンク" target="_blank">詳細</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+                <div class="box-image">
+                <img src="#FUN-Schedulerの画像" alt="FUN-Schedulerの紹介画像">
+                </div>
+                <div class="box-product">
+                  <div class="box-product-title">FUN-Scheduler</div>
+                  <div class="box-product-info">processing</div>
+                  <div class="box-product-url">
+                      <a class="url-link" href="#funlocksのリンク" target="_blank">詳細</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="box-image">
+                <img src="#Pythonの画像" alt="Pythonの紹介画像">
+                </div>
+                <div class="box-product">
+                  <div class="box-product-title">Pythonで何か作るよ</div>
+                  <div class="box-product-info">Python</div>
+                  <div class="box-product-url">
+                      <a class="url-link" href="#Pythonのリンク" target="_blank">詳細</a>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section" id="skills">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">Skills</h2>
+          </div>
+          <div class="section-body box-wrapper">
+              <div class="skills-box">
+                <ul class="skills-box-img">
+                    <li><img src="#jpg of python" alt="Python"></a></li>
+                    <li><img src="#jpg of html" alt="html"></a></li>
+                    <li><img src="#jpg of css" alt="css"></a></li>
+                </ul>
+                <div class="section-text">
+                    Pythonで競技プログラミングをしています。AtCoderでは茶色上位くらいの実力です。<br>
+                    このportfolioはhtmlとcssで作成してあります。実力は見ていただいている程度です。
+                </div>
+              </div>
+          </div>
+      </section>
+
     
-    <footer>
+    <section class="section" id="contact">
+    <div class="inner">
+        <div class="section-title-area">
+            <h2 class="section-title">Contact Form</h2>
+        </div>
+        <div class="section-body contact-wrapper">
+            <div class="contact-list">
+                <ul>
+                    <li>
+                        <a href="https://twitter.com/ryusuke__h" target="_blank"><img src="#twitterの画像リンク" alt="#twitterの画像"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/ryusuke_0920/" target="_blank"><img src="#instagramの画像リンク" alt="#instagramの画像"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ryusuke920" target="_blank"><img src="#githubの画像リンク" alt="#githubの画像"></a>
+                    </li>
+                    <li>
+                        <a href="https://ryusuke920.hatenablog.jp/" target="_blank"><img src="#hatebloの画像リンク" alt="#hatebloの画像"></a>
+                    </li>
+                    <li>
+                        <a href="https://atcoder.jp/users/ryusuke_h" target="_blank"><img src="#AtCoderの画像リンク" alt="#AtCoderの画像"></a>
+                    </li>
+                </ul>
+                <div class="contact-other">
+                    フォローや閲覧ぜひよろしくお願いします！
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
 
+    <footer id="footer">
+        <div class="inner">
+            <div class="copyright">
+                Copyright&copy;Ryusuke Hioki / 2021/02/22
+            </div>
+        </div>
     </footer>
+  </div>
+
 </body>
+</html>
