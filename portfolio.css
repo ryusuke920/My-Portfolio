@@ -28,7 +28,7 @@ h2{
 }
 
 main{
-  height:2800px;/*最終的には全て足し合わせた値*/
+  height:4000px;/*最終的には全て足し合わせた値*/
 
 }
 
@@ -94,7 +94,6 @@ header{
 .logo{
   width: 100%;
   letter-spacing:15px; /*文字の間隔*/
-  /*background-color:red; /*debug用*/
   margin-top:calc(100%/3);
   font-family: cursive; /*字体をお洒落に*/
   text-align: center;
@@ -108,14 +107,14 @@ header{
   font-size:60px;
 }
 
-
-/*ここからAbout-Me*/
+/******************
+**ここからAbout-Me**
+******************/
 
 .about-me-body{
   height:1000px;
   width: 100%;
 }
-
 
 /*アイコン全体の調整*/
 .about-me-image{
@@ -162,14 +161,73 @@ header{
 }
 
 
-/*ここからworks*/
+/******************
+**ここからWorks**
+******************/
 
 #Works{
-  height:600px;
-  background-color: #1dc21d;/*debug*/
+  height:1300px;
+  /*background-color: #1dc21d;/*debug*/
 }
 
-/*ここからskills*/
+/*見出しの調整*/
+.works-title-text{
+  text-align: center;
+  font-family: HanziPen SC; /*https://qiita.com/nacho0707/items/cc55abde2eab944fdbb1*/
+}
+
+.works-box{
+  float:left;
+  width:calc(100%/3);
+  text-align: center;
+  margin-top: 100px;
+}
+
+/*画像の大きさ調整*/
+.works-img{
+  height:250px; /*横幅自動調節*/
+  margin-bottom: 30px;
+}
+
+.works-product-title{
+  font-size:20px;
+  height:50px;
+  position: relative;
+  color: #178dee;
+}
+  
+.works-product-title:after{
+  display: block;
+  content: "";
+  height: 5px;
+  background: -moz-linear-gradient(to right, #94fff4, transparent);
+  background: -webkit-linear-gradient(to right, #94fff4, transparent);
+  background: linear-gradient(to right, #94fff4, transparent);
+}
+
+.works-product-info{
+  font-family: HanziPen SC; /*https://qiita.com/nacho0707/items/cc55abde2eab944fdbb1*/
+  font-size: 17px;
+  height:50px;
+  position: relative;
+  color: #f7880a;
+}
+
+.works-product-info:after{
+  display: block;
+  content: "";
+  height: 5px;
+  background: -moz-linear-gradient(to right, #f8ff94, transparent);
+  background: -webkit-linear-gradient(to right, #f8ff94, transparent);
+  background: linear-gradient(to right, #f8ff94, transparent);
+}
+
+.works-product-url{  
+}
+
+/******************
+**ここからSkills**
+******************/
 
 #Skills{
   height:400px;
@@ -194,7 +252,9 @@ header{
   text-align:center;
 }
 
-/*ここからsns*/
+/******************
+**ここからSNS**
+******************/
 
 .section-text{
   text-align:center;
@@ -266,7 +326,10 @@ header{
   margin:auto 10px;
 }
 
-/*footer*/
+/******************
+**ここからfooter**
+******************/
+
 #footer{
   color:white;
   background-color:#808080;
