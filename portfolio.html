@@ -1,74 +1,99 @@
 <!DOCTYPE html>
 <html>
+<!--head-->
 <head>
   <meta charset="utf-8">
-  <title>Ryusuke Hioki Portfolio</title>
+  <title>Ryusuke's Portfolio</title>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="portfolio.css">
 </head>
 
-<body>
-    <div id="wrapper">
-        <nav id="top-wrapeer" class="fixed">
-            <ul>
-                <li class = "top-box"><a class = "top-box-text" href="#about"><strong>Introduction</strong></a></li>
-                <li class = "top-box"><a class = "top-box-text" href="#products"><strong>Product</strong></a></li>
-                <li class = "top-box"><a class = "top-box-text" href="#skills"><strong>Skills</strong></a></li>
-                <li class = "top-box"><a class = "top-box-text" href="#contact"><strong>Contact</strong></a></li>
-            </ul>
-        </nav>
 
+<!--body-->
+<body>
+  <!--top-table-->
+    <div id="wrapper">
+        <div id="top-wrapper">
+          <div class="top-table">
+            <div class = "top-table-box">
+              <a class = "top-table-text top-about-me" href="#About Me"><strong class = "top-table-text-about-me">About Me</strong></a>
+            </div>
+          </div>
+          <div class="top-table">
+            <div class = "top-table-box">
+              <a class = "top-table-text top-works" href="#Works"><strong>Works</strong></a>
+            </div>
+          </div>
+          <div class="top-table">
+            <div class = "top-table-box">
+              <a class = "top-table-text top-skills" href="#Skills"><strong>Skills</strong></a>
+            </div>
+          </div>
+          <div class="top-table">
+            <div class = "top-table-box">
+              <a class = "top-table-text top-sns" href="#SNS"><strong>SNS</strong></a>
+            </div>
+          </div>
+        </div>
+
+<!--header-->
     <header>
         <div class="inner">
+          <div id = header-inner>
             <h1 class="logo">
-            <div class="logo-title">Ryusuke Hioki</div>
-            <div class="logo-desc">My Portfolio</div>
+              <p class="logo-sub-title">Welcome To</p>
+              <p class="logo-title">Ryusuke's Portfolio</p>
             </h1>
+          </div>
         </div>
     </header>
 
+<!--Abut Me-->
     <main class="contents">
-        <section class="section" id="Introduction">
+        <section class="section" id="About Me">
             <div class="inner">
-                <h2 class="section-title">Introduction</h2>
-                <div class="section-body">
-                    <div class="section-image">
-                        <img class="MyPicture" src="#自分の画像" alt="自分のアイコン">
+                <h2 class="section-title title-about-me"><span style ="background:linear-gradient(transparent 50%, #e9e75f 50%);">About Me</span></h2>
+                <div class="about-me-body">
+                    <div class="about-me-image">
+                      <img class="my-picture-reality" src="img/my-picture.png" alt="自分のアイコン">
+                      <p class = "my-picture-reality-text">バスケしてる時の写真</p>
                     </div>
-                    <div class="section-about">
-                        <div class="section-text-title">
-                            Name<br>
-                            Birthday<br>
-                            Birthplace<br>
-                            University<br>
-                            High School<br>
-                            Favorite Area<br>
-                        </div>
-                        <div class="section-text-about">
-                            日置 竜輔（Ryusuke Hioki）<br>
-                            2000/09/20<br>
-                            愛知県 東海市<br>
-                            公立はこだて未来大学 システム情報科学部 B2<br>
-                            愛知県立横須賀高等学校<br>
-                            アルゴリズムとデータ構造 / UIデザイン<br>
-                        </div>
+                    <div class="about-me-image">
+                      <img class="my-picture-fantasy" src="img/kairyu.png" alt="カイリューのアイコン">
+                      <p class = "my-picture-fantasy-text">Twitterの競プロ垢のアイコン</p>
                     </div>
+                      <div class = "section-about">
+                        <div class="about-me-text">
+                            <p class = "about-me-details details-name"><span style ="background:linear-gradient(transparent 75%, #db0f08 50%);">Name</span></p>
+                            <p class = "about-me-details details-birthday"><span style ="background:linear-gradient(transparent 75%, #f8bb36 50%);">Birthday</span></p>
+                            <p class = "about-me-details"><span style ="background:linear-gradient(transparent 75%, #54ff7f 50%);">Birthplace</span></p>
+                            <p class = "about-me-details"><span style ="background:linear-gradient(transparent 75%, #a8eaff 50%);">University</span></p>
+                            <p class = "about-me-details"><span style ="background:linear-gradient(transparent 75%, #6347e0 50%);">High School</span></p>
+                            <p class = "about-me-details"><span style ="background:linear-gradient(transparent 75%, #e136f8 50%);">Favorite Area</span></p>
+                        </div>
+                        <div class="about-me-text">
+                          <p class = "about-me-details"><strong>日置 竜輔（Hioki Ryusuke）</strong></p>
+                          <p class = "about-me-details"><strong>2000/09/20</strong></p>
+                          <p class = "about-me-details"><strong>愛知県東海市</strong></p>
+                          <p class = "about-me-details"><strong>公立はこだて未来大学 (FUN) システム情報科学部 B2</strong></p>
+                          <p class = "about-me-details"><strong>愛知県立横須賀高等学校</strong></p>
+                          <p class = "about-me-details"><strong>アルゴリズムとデータ構造 / UIデザイン</strong></p>
+                        </div>
+                      </div>
                 </div>
             </div>
         </section>
 
-      <section class="section" id="products">
+<!--Works-->
+      <section class="section" id="Works">
         <div class="inner">
-
           <div class="section-title-range">
-            <h2 class="section-title">Product</h2>
+            <h2 class="section-title title-works"><span style ="background:linear-gradient(transparent 50%, #a8eaff 50%);">Works</span></h2>
               <div class="section-title-text">
                 これまでの制作物・プロダクトなどを紹介します
               </div>
           </div>
-
           <div class="section-body box-wrapper my-gallery">
-
             <div class="box">
               <div class="box-image">
               <img src="#funlocksの画像" alt="funlocksの紹介画像">
@@ -111,11 +136,11 @@
         </div>
       </section>
 
-
-      <section class="section" id="skills">
+<!--Skills-->
+      <section class="section" id="Skills">
         <div class="inner">
           <div class="section-title-area">
-            <h2 class="section-title">Skills</h2>
+            <h2 class="section-title title-skills"><span style ="background:linear-gradient(transparent 50%, #5fec5f 50%);">Skills</span></h2>
           </div>
           <div class="section-body box-wrapper">
               <div class="my-skills">
@@ -140,44 +165,44 @@
         </div>
       </section>
 
-    
-    <section class="section" id="contact">
+<!--SNS-->
+    <section class="section" id="SNS">
     <div class="inner">
         <div class="section-title-area">
-            <h2 class="section-title">Contact Form</h2>
+            <h2 class="section-title title-sns"><span style ="background:linear-gradient(transparent 50%, #c768f3 50%);">SNS</span></h2>
         </div>
-        <div class="contact-other">
+        <div class="sns-text">
           フォローや閲覧など是非よろしくお願いします！
       </div>
-        <div class="section-body contact-wrapper">
-            <ul class="contact-list">
+        <div class="section-body sns-wrapper">
+            <ul class="sns-list">
               <li><a href="https://github.com/ryusuke920" class = "btn github">
-                <img class = "contact-img" src = "img/github.png" alt = "githubのアイコン">
-                <div class = "contact-img-text">github</div>
+                <img class = "sns-img" src = "img/github.png" alt = "githubのアイコン">
+                <div class = "sns-img-text">github</div>
               </li></a>
               <li>
                 <a href="https://twitter.com/ryusuke__h" class = "btn twitter">
-                  <img class = "contact-img" src = "img/twitter.png" alt = "twitterのアイコン">
-                  <div class = "contact-img-text">Twitter</div>
+                  <img class = "sns-img" src = "img/twitter.png" alt = "twitterのアイコン">
+                  <div class = "sns-img-text">Twitter</div>
               </li></a>
               <li><a href="https://www.instagram.com/ryusuke_0920/" class = "btn instagram">
-                <img class = "contact-img" src = "img/instagram.png" alt = "インスタグラムのアイコン">
-                <div class = "contact-img-text">Instagram</div>
+                <img class = "sns-img" src = "img/instagram.png" alt = "インスタグラムのアイコン">
+                <div class = "sns-img-text">Instagram</div>
               </li></a>
               <li><a href="https://ryusuke920.hatenablog.jp/" class = "btn hatenablog">
-                <img class = "contact-img" src = "img/hatenablog.png" alt = "はてなブログのアイコン">
-                <div class = "contact-img-text">hatenablog</div>
+                <img class = "sns-img" src = "img/hatenablog.png" alt = "はてなブログのアイコン">
+                <div class = "sns-img-text">hatenablog</div>
               </li></a>
               <li><a href="https://atcoder.jp/users/ryusuke_h" class = "btn atcoder">
-                <img class = "contact-img" src = "img/atcoder.png" alt = "atcoderのアイコン">
-                <div class = "contact-img-text">AtCoder</div>
+                <img class = "sns-img" src = "img/atcoder.png" alt = "atcoderのアイコン">
+                <div class = "sns-img-text">AtCoder</div>
               </li></a>
               </ul>
 
         </div>
     </section>
     </main>
-
+<!--footer-->
     <footer id="footer">
         <div class="inner">
             <div class="copyright">
@@ -186,6 +211,5 @@
         </div>
     </footer>
   </div>
-
 </body>
 </html>
