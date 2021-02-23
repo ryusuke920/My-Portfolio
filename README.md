@@ -1,5 +1,5 @@
 # Portfolio
-[こちらから参照いただけます](https://ryusuke920.github.io/My-Portfolio/portfolio.html)  
+[ポートフォリオはこちら](https://ryusuke920.github.io/My-Portfolio/portfolio.html)  
 
 ## アップデート情報
 |日時|バージョン|変更点・補足|
