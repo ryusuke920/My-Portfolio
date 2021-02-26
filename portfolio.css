@@ -112,7 +112,7 @@ header{
 ******************/
 
 .about-me-body{
-  height:1000px;
+  height:800px;
   width: 100%;
 }
 
@@ -166,7 +166,7 @@ header{
 ******************/
 
 #Works{
-  height:1300px;
+  height:1200px;
   /*background-color: #1dc21d;/*debug*/
 }
 
@@ -240,9 +240,11 @@ header{
   height:100px; /*ロゴの大きさ調整（widthは自動補完）*/
 }
 
+.skills-language{
+  color:black;
+}
+
 .skills-contents{
-  width:80%;
-  display:inline-block;
   margin-top:20px;
   font-size:12px;
   color:#b3aeb5;
@@ -252,10 +254,6 @@ header{
 /******************
 **ここからSNS**
 ******************/
-
-.section-text{
-  text-align:center;
-}
 
 .sns-list{
 	display: flex;
@@ -302,37 +300,37 @@ header{
 }
 
 .github{
-  background-color:rgba(102, 245, 114, 0.849);
+  /*background-color:rgba(102, 245, 114, 0.849);*/
   height:150px; /*背景の高さ*/
   width:150px; /*背景の横幅*/
 }
 
 .twitter{
-  background-color:rgba(48, 250, 240, 0.7);
+  /*background-color:rgba(48, 250, 240, 0.7);*/
   height:150px; /*背景の高さ*/
   width:150px; /*背景の横幅*/
 }
 
 .instagram{
-  background-color:rgba(238, 177, 253, 0.7);
+  /*background-color:rgba(238, 177, 253, 0.7);*/
   height:150px; /*背景の高さ*/
   width:150px; /*背景の横幅*/
 }
 
 .hatenablog{
-  background-color:rgba(255, 253, 122, 0.877);;
+  /*background-color:rgba(255, 253, 122, 0.877);*/
   height:150px; /*背景の高さ*/
   width:150px; /*背景の横幅*/
 }
 
 .atcoder{
-  background-color:rgba(180, 184, 187, 0.7);;
+  /*background-color:rgba(180, 184, 187, 0.7);*/
   height:150px; /*背景の高さ*/
   width:150px; /*背景の横幅*/
 }
 
 .facebook{
-  background-color:rgba(59, 193, 255, 0.7);;
+  /*background-color:rgba(59, 193, 255, 0.7);*/
   height:150px; /*背景の高さ*/
   width:150px; /*背景の横幅*/
 }
