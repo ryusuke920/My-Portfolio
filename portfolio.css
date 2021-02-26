@@ -29,7 +29,6 @@ h2{
 
 main{
   height:4000px;/*最終的には全て足し合わせた値*/
-
 }
 
 /*ここからheader*/
@@ -85,16 +84,15 @@ main{
   background: linear-gradient(transparent 50%, #c768f3 50%);
 }
 
-/*ここからheader*/
+/*ここからlogo*/
 header{
   height:60%; /*titleの大きさ*/
 }
 
 
 .logo{
-  width: 100%;
   letter-spacing:15px; /*文字の間隔*/
-  margin-top:calc(100%/3);
+  margin-top: 310px;
   font-family: cursive; /*字体をお洒落に*/
   text-align: center;
 }
