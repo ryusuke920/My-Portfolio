@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="portfolio.css">
 </head>
 
-
 <!--body-->
 <body>
   <!--top-table-->
@@ -33,9 +32,14 @@
               <a class = "top-table-text top-sns" href="#SNS"><strong>SNS</strong></a>
             </div>
           </div>
+          <div class="top-table">
+            <div class = "top-table-box">
+              <a class = "top-table-text top-contact-form" href="#Contact-Form"><strong>Conact-Form</strong></a>
+            </div>
+          </div>
         </div>
 
-<!--header-->
+<!--logo-->
     <header>
         <div class="inner">
           <div id = header-inner>
@@ -55,7 +59,7 @@
                 <div class="about-me-body">
                     <div class="about-me-image">
                       <img class="my-picture-reality" src="img/my-picture.png" alt="自分のアイコン">
-                      <p class = "my-picture-reality-text">バスケしてる時の写真</p>
+                      <p class = "my-picture-reality-text">趣味のバスケの写真</p>
                     </div>
                     <div class="about-me-image">
                       <img class="my-picture-fantasy" src="img/kairyu.png" alt="カイリューのアイコン">
@@ -74,7 +78,7 @@
                           <p class = "about-me-details"><strong>日置 竜輔（Hioki Ryusuke）</strong></p>
                           <p class = "about-me-details"><strong>2000/09/20</strong></p>
                           <p class = "about-me-details"><strong>愛知県東海市</strong></p>
-                          <p class = "about-me-details"><strong>公立はこだて未来大学 (FUN) システム情報科学部 B2</strong></p>
+                          <p class = "about-me-details"><strong>公立はこだて未来大学 (FUN) B3</strong></p>
                           <p class = "about-me-details"><strong>愛知県立横須賀高等学校</strong></p>
                           <p class = "about-me-details"><strong>アルゴリズムとデータ構造 / UIデザイン</strong></p>
                         </div>
@@ -156,7 +160,7 @@
               <div class="my-skills">
                 <img class="img-skills" src = "img/python.png" alt = "pythonのアイコン">
                 <p class="skills-language">Python</p>
-                <p class="skills-contents">競技プログラミングや大学の授業等で使用しています。<br>AtCoderで<span style ="color:brown;">茶色</span>上位程の実力です。</p>
+                <p class="skills-contents">競技プログラミングや大学の授業等で使用しています。<br>AtCoderで<span style ="color:green;">緑色</span>上位程の実力です。</p>
               </div>
               <div class="my-skills">
                 <img class="img-skills" src = "img/html5.png" alt = "html5のアイコン">
@@ -241,7 +245,7 @@
               <a href="https://atcoder.jp/users/ryusuke_h" class = "btn atcoder">
               <img class="sns-img" src="img/atcoder.png" alt="atcoderのアイコン">
               </a>
-              <p class="sns-list-info">AtCoderの自分のレートです。<br>まじで早く<span style="color:green;">緑色</span>に行きたいです。<br>応援して下さい...</p>
+              <p class="sns-list-info">AtCoderの自分のレートです。<br>目標は<span style="color:cyan;">水色</span>に行きたいです。<br>応援して下さい...</p>
             </div>
             <div class="sns-list-box">
               <a href="https://www.facebook.com/profile.php?id=100023617934131" class = "btn facebook">
@@ -254,11 +258,110 @@
     </div>
       </section>
     </main>
+
+<!--Contact-Form-->
+<section class="section" id="Contact-Form">
+  <div class="inner">
+    <div class="contact-form-title-area">
+      <h2 class="title-contact-form"><span style ="background:linear-gradient(transparent 50%, #eb9442 50%);">Contact Form</span></h2>
+    </div>
+    <form>
+      <label class="label">氏名：</label>
+      <div class="item">
+        <input id="my-name" type="text" name="yourname" placeholder="日置竜輔">
+      </div>
+      <label class="label">性別：</label>
+      <div class="item">
+        <div class="inputs">
+        <input id="men" type="radio" name="menu" value="men">
+        <label for="men">男性</label>
+        <input id="women" type="radio" name="menu" value="women">
+        <label for="women">女性</label>
+        </div>
+      </div>
+      <label class="label">年齢：</label>
+      <div class="item">
+        <select name="age" >
+          <option value="" hidden>年齢を選択してください</option>
+          <option value="one-nine">10歳未満</option>
+          <option value="ten">10歳</option>
+          <option value="eleven">11歳</option>
+          <option value="twelve">12歳</option>
+          <option value="thirteen">13歳</option>
+          <option value="fourteen">14歳</option>
+          <option value="fifteen">15歳</option>
+          <option value="sixteen">16歳</option>
+          <option value="seventeen">17歳</option>
+          <option value="eighteen">18歳</option>
+          <option value="nineteen">19歳</option>
+          <option value="twenty">20歳</option>
+          <option value="twenty-one">21歳</option>
+          <option value="twenty-two">22歳</option>
+          <option value="twenty-three">23歳</option>
+          <option value="twenty-four">24歳</option>
+          <option value="twenty-five">25歳</option>
+          <option value="twenty-six">26歳</option>
+          <option value="twenty-seven">27歳</option>
+          <option value="twenty-eight">28歳</option>
+          <option value="twenty-nine">29歳</option>
+          <option value="thirty">30歳</option>
+          <option value="thirty-one">31歳</option>
+          <option value="thirty-two">32歳</option>
+          <option value="thirty-three">33歳</option>
+          <option value="thirty-four">34歳</option>
+          <option value="thirty-five">35歳</option>
+          <option value="thirty-six">36歳</option>
+          <option value="thirty-seven">37歳</option>
+          <option value="thirty-eight">38歳</option>
+          <option value="thirty-nine">39歳</option>
+          <option value="forty">40歳</option>
+          <option value="forty-one">41歳</option>
+          <option value="forty-two">42歳</option>
+          <option value="forty-three">43歳</option>
+          <option value="forty-four">44歳</option>
+          <option value="forty-five">45歳</option>
+          <option value="forty-six">46歳</option>
+          <option value="forty-seven">47歳</option>
+          <option value="forty-eight">48歳</option>
+          <option value="forty-nine">49歳</option>
+          <option value="fifty">50歳</option>
+          <option value="fifty-one">51歳</option>
+          <option value="fifty-two">52歳</option>
+          <option value="fifty-three">53歳</option>
+          <option value="fifty-four">54歳</option>
+          <option value="fifty-five">55歳</option>
+          <option value="fifty-six">56歳</option>
+          <option value="fifty-seven">57歳</option>
+          <option value="fifty-eight">58歳</option>
+          <option value="fifty-nine">59歳</option>
+          <option value="more-sixty">60歳以上</option>
+        </select>
+      </div>
+      <label class="label">メールアドレス：</label>
+      <div class="item">
+        <input id="mail" type="email" name="mail" placeholder="ryusuke_920@icloud.com">
+      </div>
+      <label class="label">TwitterのID<br>（陽キャはInstgramのIDでも可）：</label>
+      <div class="item">
+        <input class="twitter-id" id="ID" type="ID" name="ID" placeholder="@ryusuke__h">
+      </div>
+      <label class="label">コメント：</label>
+      <div class="item">
+        <textarea id="comment" name="comment" placeholder="何かあれば自由にコメントを記入してください"></textarea>
+      </div>
+      <div class="btn-area">
+        <input type="submit" value="送信する">
+        <input type="reset" value="リセット">
+      </div>
+    </form>
+  </div>
+</section>
+
 <!--footer-->
     <footer id="footer">
         <div class="inner">
             <div class="copyright">
-                Copyright &copy; Ryusuke Hioki / 2021/02/22
+                Copyright &copy; 2021 / Ryusuke Hioki
             </div>
         </div>
     </footer>
