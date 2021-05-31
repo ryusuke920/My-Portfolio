@@ -1,4 +1,7 @@
-/*全体に関わってくるやつ*/
+/******************
+**サイト全体に関わる設定**
+******************/
+
 html{
   height:100%; /*親要素のheight幅を最大にしておく*/
 }
@@ -31,7 +34,9 @@ main{
   height:4000px;/*最終的には全て足し合わせた値*/
 }
 
-/*ここからheader*/
+/******************
+**ここから上の目次**
+******************/
 
 #top-wrapper{
   height: calc(100%/8); /*目次の高さ（画面全体 // 8）*/
@@ -45,7 +50,7 @@ main{
 /*親要素*/
 .top-table{
   float:left; /*横並びに*/
-  width:calc(100%/4); /*3つずつ並べる*/
+  width:calc(100%/5); /*5つずつ並べる*/
   text-align: center; /*ロゴを中央寄せ*/
 }
 
@@ -84,7 +89,14 @@ main{
   background: linear-gradient(transparent 50%, #c768f3 50%);
 }
 
-/*ここからlogo*/
+/*contact-formの蛍光ペン装飾*/
+.top-contact-form{
+  background: linear-gradient(transparent 50%, #eb9442 50%);
+}
+
+/******************
+**ここからlogo**
+******************/
 header{
   height:500px; /*titleの大きさ*/
 }
@@ -119,6 +131,7 @@ header{
   float:left; /*横並びに*/
   width:calc(100%/2); /*2つずつ並べる*/
   text-align: center; /*2舞の画像を中央に*/
+  max-width:calc(100%/2);
 }
 
 /*実物アイコンの調整*/
@@ -225,7 +238,7 @@ header{
 ******************/
 
 #Skills{
-  height:400px;
+  height:800px;
 }
 
 .my-skills{
@@ -253,6 +266,10 @@ header{
 **ここからSNS**
 ******************/
 
+#SNS{
+  height:850px;
+}
+
 .sns-list{
 	display: flex;
 	flex-wrap:wrap;
@@ -272,10 +289,6 @@ header{
 .sns-img {
 	max-width:100%; /*画像のはみだしを防ぐ*/
   width:150px;/*heightは自動補完*/
-}
-
-#sns{
-  height:500px;
 }
 
 .sns-text{
@@ -341,6 +354,74 @@ header{
 }
 
 /******************
+**ここからContact-Form**
+******************/
+
+/*Contact-Form全体に関わる設定*/
+#Contact-Form{
+  text-align: center;
+  margin:0 auto;
+}
+
+/*１つ１つに対する設定*/
+.item{
+  margin: 20px;
+  overflow: hidden;
+}
+
+/*項目の詳細設定*/
+.label{
+  float: left;
+  width:calc(100%/5);
+  border-left: solid 4px #50e074;
+}
+
+input[type="text"],input[type="email"]{
+  border: solid 1px #aaa;
+  border-radius:5px; /*枠を丸める*/
+  padding:10px; /*枠内の周囲の余白*/
+  font-size: 15px;
+}
+
+.twitter-id{
+  margin-top:25px;
+}
+
+textarea{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding: 10px;
+  height: 160px;
+  font-size: 15px;
+  height:150px;
+  width:calc(100%/3);
+  resize: none; /*各自で大きさを変えれないようにする (詳細) → http://black-flag.net/css/20111017-3519.html*/
+}
+
+input[type="submit"]{
+  background: #f5b048;
+  border: none;
+  color: white;
+  font-size:17px;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+input[type="reset"]{
+  background: #aaa; /*背景は灰色がいい*/
+  border: none; /*枠の囲いをなくす*/
+  color: white; /*リセットボタンの文字色*/
+  font-size:17px; /*リセットボタンのフォントサイズ*/
+  padding: 10px 20px; /*ボタン内の余白*/
+  margin: 10px; /*ボタン通しの横の余白*/
+}
+
+/*送信ボタンの編集*/
+input[value]{
+  font-family: HanziPen SC; /*https://qiita.com/nacho0707/items/cc55abde2eab944fdbb1*/
+}
+
+/******************
 **ここからfooter**
 ******************/
 
@@ -349,4 +430,5 @@ header{
   background-color:#808080;
   text-align:center;
   padding:15px 0;
+  margin-top: 30px;
 }
