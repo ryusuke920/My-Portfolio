@@ -31,7 +31,7 @@ h2{
 }
 
 main{
-  height:4000px;/*最終的には全て足し合わせた値*/
+  height:5030px;/*最終的には全て足し合わせた値 500+1000+1500+1000+1000+30 = 5030*/
 }
 
 /******************
@@ -121,6 +121,10 @@ header{
 **ここからAbout-Me**
 ******************/
 
+#About-Me{
+  height:1000px;
+}
+
 .about-me-body{
   height:800px;
   width: 100%;
@@ -177,7 +181,7 @@ header{
 ******************/
 
 #Works{
-  height:1200px;
+  height:1500px;
   /*background-color: #1dc21d;/*debug*/
 }
 
@@ -238,13 +242,17 @@ header{
 ******************/
 
 #Skills{
-  height:800px;
+  height:1000px;
 }
 
 .my-skills{
   float:left; /*横並びに*/
   width:calc(100%/3); /*3つずつ並べる*/
   text-align: center; /*ロゴを中央よせ*/
+}
+
+.skills-title-area{
+  text-align: center;
 }
 
 .img-skills{
@@ -267,7 +275,7 @@ header{
 ******************/
 
 #SNS{
-  height:850px;
+  height:1000px;
 }
 
 .sns-list{
@@ -359,6 +367,7 @@ header{
 
 /*Contact-Form全体に関わる設定*/
 #Contact-Form{
+  height:1000px;
   text-align: center;
   margin:0 auto;
 }
