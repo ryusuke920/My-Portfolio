@@ -365,7 +365,7 @@ header{
 
 /*１つ１つに対する設定*/
 .item{
-  margin: 20px;
+  margin: 40px;
   overflow: hidden;
 }
 
@@ -375,26 +375,36 @@ header{
   width:calc(100%/5);
   border-left: solid 4px #50e074;
 }
+#ID, #email, #text{
+  height: 30px;
+  width:calc(100%/3);
+}
+.item{
+  height: 100%;
+  width:100%;
+}
 
 input[type="text"],input[type="email"]{
   border: solid 1px #aaa;
   border-radius:5px; /*枠を丸める*/
   padding:10px; /*枠内の周囲の余白*/
   font-size: 15px;
+  width:calc(100%/5);
 }
 
 .twitter-id{
   margin-top:25px;
 }
 
+/*複数行の設定*/
 textarea{
+  text-align: left;
   border: solid 1px #aaa;
   border-radius:5px;
   padding: 10px;
   height: 160px;
   font-size: 15px;
-  height:150px;
-  width:calc(100%/3);
+  width:calc(100% / 2);
   resize: none; /*各自で大きさを変えれないようにする (詳細) → http://black-flag.net/css/20111017-3519.html*/
 }
 
